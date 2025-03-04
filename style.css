@@ -1,0 +1,138 @@
+.box{
+    border: 4PX grey solid;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(107, 141, 141);
+    font-family: Arial;
+    color: rgb(60, 60, 196);
+    padding-left: 50px;
+}
+p{
+    font-size: 16px;
+}
+.boxa{
+     display: flex;
+     align-items: center;
+}
+input{
+    margin-left: 50px;
+    height: 25px;
+    border-color: rgb(82, 77, 77);
+}
+.boxb{
+    display: flex;
+    align-items: center;
+}
+.boxx {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.boxd{
+    display: flex;
+    align-items: center;
+}
+.boxd input{
+    margin-left: 70px;
+}
+.boxe{
+    display: flex;
+    align-items: center;
+}
+.gendar{
+    padding: 0px;
+    margin: 0px;
+}
+.id{
+    margin-left: 70px;
+}
+.boxf{
+display: flex;
+align-items: center;
+margin-top: 10px;
+}
+textarea{
+    margin-left: 60px;
+    border-color: rgb(20, 18, 18);
+}
+.boxg{
+    display: flex;
+    align-items: center;
+}
+.boxg input{
+    margin-left: 95px;
+}
+.boxh{
+    display: flex;
+    align-items: center;
+}
+.boxh input{
+    margin-left: 60px;
+}
+.state{
+    display: flex;
+    align-items: center;
+}
+.state input{
+    margin-left: 85px;
+}
+.di{
+    margin-left: 50px;
+    height: 25px;
+    width: 180px;
+}
+.car{
+display: flex;
+align-items: center;
+
+}
+.sys{
+    margin-left: 50px;
+}
+.hobbies{
+    margin-left: 5px;
+}
+@media(min-width:10px) and (min-width:100px){
+    .box{
+        font-size: 5px;
+        color: black;
+    }
+}
+@media(min-width:100px) and (min-width:200px){
+    .box{
+        font-size: 8px;
+        color: rgb(187, 238, 220);
+    }
+}
+@media(min-width:200px) and (min-width:300px){
+    .box{
+       color: rgb(194, 194, 204); 
+       font-size: 13px;
+    
+    }
+}
+@media(min-width:300px) and (min-width:400px){
+    .box{
+       color: rgb(248, 231, 169); 
+       font-size: 12px;
+    }
+}
+@media(min-width:400px) and (min-width:500px){
+    .box{
+       color: rgb(236, 196, 211); 
+       font-size: 10px;
+       
+    }
+}
+@media(min-width:500px) and (min-width:600px){
+    .box{
+    font-size: 20px;
+    color: rgb(146, 190, 165);
+    }
+}
+@media(min-width:600px) and (min-width:700px){
+    .box{
+       color: rgb(241, 228, 227); 
+       font-size: 20px;
+       
+    }
+}
